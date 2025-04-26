@@ -17,6 +17,7 @@ class AppTheme {
       unselectedItemColor: white,
     ),
     appBarTheme: AppBarTheme(
+      foregroundColor: black,
       backgroundColor: Colors.transparent,
       centerTitle: true,
       titleTextStyle: TextStyle(
@@ -26,6 +27,18 @@ class AppTheme {
       ),
     ),
     scaffoldBackgroundColor: Colors.transparent,
+    textTheme: TextTheme(
+      headlineSmall: TextStyle(
+        fontSize: 25,
+        fontWeight: FontWeight.w400,
+        color: black,
+      ),
+      titleLarge: TextStyle(
+        fontSize: 20,
+        fontWeight: FontWeight.w400,
+        color: black,
+      ),
+    ),
   );
 
   static ThemeData darkTheme = ThemeData(
